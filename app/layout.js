@@ -5,8 +5,9 @@ import Nav from "./components/Nav";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
-        <Nav>{children}</Nav>
+      <body className="">
+        <Nav />
+        {children}
       </body>
     </html>
   );
